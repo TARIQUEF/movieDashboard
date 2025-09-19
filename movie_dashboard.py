@@ -8,7 +8,7 @@ st.set_page_config(
 )
 
 # Load the dataset
-df = pd.read_csv("data/movie_ratings.csv")
+df = pd.read_csv("movie_ratings.csv")
 
 st.title("MovieLens Dashboard")
 
